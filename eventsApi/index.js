@@ -30,7 +30,7 @@ app.post("/", function(req, res) {
             console.log(json["events_results"]); // Log the events results to console
             if (json && json.events_results && json.events_results.length > 0) {
                 const eventHtml = json.events_results.map(event => `<div class="box">
-                <div class="image"> <img src=${event.image} /></div>
+                <div class="image">${event.image ? `<img src="${event.image}" />` : ''}</div>
                 <h2>${event.title}</h2>
                 <p>${event.date.when}</p>
                 <p>${event.description}</p>
