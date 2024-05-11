@@ -77,4 +77,10 @@ button{
     #events-container .box{
         margin-left: -10px;
     }
+    input{
+        font-size: 18px;
+    }
+    .input::placeholder{
+        font-size: 18px;
+    }
 }
