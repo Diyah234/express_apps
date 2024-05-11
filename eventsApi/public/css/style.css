@@ -42,6 +42,7 @@ h1{
 .text{
     width: 50%;
     margin-top: -20px;
+    flex-wrap: wrap;
 }
 #events p{
     width: 95%;
