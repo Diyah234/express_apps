@@ -38,3 +38,18 @@ function event(e) {
 
 // Event listener for form submission
 form.addEventListener('submit', event);
+
+
+// fetch('/Countries', {
+//     method: 'POST',
+//     headers: {
+//         'Content-Type': 'application/x-www-form-urlencoded',
+//     },
+// }).then(res =>{ console.log(res.text())}).then(data =>{ console.log(data)}).catch(error => {
+//     console.error(error)
+// })
+// countries.map(item =>{
+//    return document.querySelector(".country").innerHTML += `<select value=${item.country_code}> ${ item.country_name+`(${item.country_code})`}</select>`
+    
+// })
+
